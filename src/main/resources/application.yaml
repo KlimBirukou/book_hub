@@ -1,3 +1,11 @@
 spring:
   application:
     name: book_hub
+
+services:
+  ums:
+    base-url: http://localhost:8083/user-management-system-rest
+  bms:
+    base-url: http://localhost:8082/book-management-system-rest
+  sms:
+    base-url: http://localhost:8081/store-management-system-rest
